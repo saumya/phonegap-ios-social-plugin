@@ -1,12 +1,17 @@
 # Cordova iOS Social Plugin #
 Modified by [Saumya](http://saumyaray.com)
-
+---
 ## Changes to call the plugin ##
-window.share(alertTitle,alertURL,'www/img/logo.png', function(resultObject) {
-                    console.log(resultObject);
-                });
-
-
+---
+```
+window.share(title,url,'www/img/logo.png', function(resultObject) {console.log(resultObject);});
+```
+Except that, oeverything else remains the same as below.
+### Note
+* The image parameter is currently not implemented on the ObjecticveC side yet. So, even if you send a parameter, which you have to, it will not be shared. So the best all now will send a blank parameter as the third param as below.
+```
+window.share(title,url,'', function(resultObject) {console.log(resultObject);});
+```
 
 Original by [Cameron Lerch](http://brightflock.com)
 
