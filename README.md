@@ -1,5 +1,9 @@
 # Cordova iOS Social Plugin #
 Modified by [Saumya](http://saumyaray.com)
+---
+### [This plugin is hosted by the author](https://github.com/saumya/phonegap-ios-social-plugin)
+---
+## DESCRIPTION ##
 This plugin now uses the new plugin architecture of phonegap to support phonegap version 2.6 and up.
 ---
 ## Changes to call the plugin ##
@@ -15,12 +19,9 @@ window.share(title,url,'', function(resultObject) {console.log(resultObject);});
 ```
 
 Original by [Cameron Lerch](http://brightflock.com)
+### [Forked from ](https://github.com/bfcam/phonegap-ios-social-plugin)
 
----
-### [This plugin is hosted by the author](https://github.com/bfcam/phonegap-ios-social-plugin)
----
-
-## DESCRIPTION ##
+## OLD DESCRIPTION ##
 
 * This plugin integrates with the iOS6+ social framework to provide social sharing. Features are only available on devices with
   iOS6+--if this is not acceptable look at sharekit.
