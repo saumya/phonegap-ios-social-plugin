@@ -3,8 +3,11 @@ Modified by [Saumya](http://saumyaray.com)
 ---
 ### [This plugin is hosted by the author](https://github.com/saumya/phonegap-ios-social-plugin)
 ---
+
 ## DESCRIPTION ##
+
 This plugin now uses the new plugin architecture of phonegap to support phonegap version 2.6 and up.
+
 ---
 ## Changes to call the plugin ##
 ---
