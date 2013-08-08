@@ -1,6 +1,9 @@
 //
 //  social.js
 //
+//	Saumya Ray
+//
+//	Original by:
 //  Cameron Lerch
 //  Sponsored by Brightflock: http://brightflock.com
 //
