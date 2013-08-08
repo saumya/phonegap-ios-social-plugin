@@ -1,5 +1,6 @@
 # Cordova iOS Social Plugin #
 Modified by [Saumya](http://saumyaray.com)
+
 ---
 ### [This plugin is hosted by the author](https://github.com/saumya/phonegap-ios-social-plugin)
 ---
