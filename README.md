@@ -1,5 +1,6 @@
 # Cordova iOS Social Plugin #
 Modified by [Saumya](http://saumyaray.com)
+This plugin now uses the new plugin architecture of phonegap to support phonegap version 2.6 and up.
 ---
 ## Changes to call the plugin ##
 ---
