@@ -25,7 +25,7 @@ window.share(title,url,'', function(resultObject) {console.log(resultObject);});
 
 ---
 #### Original by [Cameron Lerch](http://brightflock.com)
-#### Forked from [ here ](https://github.com/bfcam/phonegap-ios-social-plugin)
+#### situated [ here ](https://github.com/bfcam/phonegap-ios-social-plugin)
 ---
 
 ## OLD DESCRIPTION ##
