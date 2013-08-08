@@ -1,7 +1,7 @@
 //
 //  Social.m
 //
-//  Saumya Ray
+//  Saumya Ray : http://saumyaray.com : https://twitter.com/saumya
 //
 //  Original by:
 //  Cameron Lerch
