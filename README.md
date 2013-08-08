@@ -1,5 +1,14 @@
 # Cordova iOS Social Plugin #
-by [Cameron Lerch](http://brightflock.com)
+Modified by [Saumya](http://saumyaray.com)
+
+## Changes to call the plugin ##
+window.share(alertTitle,alertURL,'www/img/logo.png', function(resultObject) {
+                    console.log(resultObject);
+                });
+
+
+
+Original by [Cameron Lerch](http://brightflock.com)
 
 ---
 ### [This plugin is hosted by the author](https://github.com/bfcam/phonegap-ios-social-plugin)

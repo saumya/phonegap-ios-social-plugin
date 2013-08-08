@@ -15,9 +15,39 @@ Social.prototype.available = function(callback) {
 };
 
 Social.prototype.share = function(message, url, image) {
-    cordova.exec(null, null, "Social", "share", [message, image, url]);
+    //old deprecated
+    //cordova.exec(null, null, "Social", "share", [message, image, url]);
+    /*
+    //new
+    cordova.exec(function(winParam) {}, function(error) {}, "Social", 
+    	"share", [message, image, url,false]);
+    */
+    /*
+    //echo plugin
+    window.echo = function(str, callback) {
+	    cordova.exec(callback, function(err) {
+	        callback('Nothing to echo.');
+	    }, "Echo", "echo", [str]);
+	};
+	*/
 };
-    
+
+//New implementation
+window.share = function(message, url, image, callback) {
+	console.log('Share : message='+message);
+	console.log('Share : url='+url);
+	
+	//console.log('URL ='+urlString);
+	    cordova.exec(callback, function(err) {
+	        callback('Nothing to echo.');
+	    //}, "Social", "share", [message+':'+url+':'+image]);
+	    
+	    //image : has not been implemented yet!
+	    //TODO: implement "image" sharing
+	    }, "Social", "share", [message,url]);
+	
+	};
+  
 Social.install = function() {
     if (!window.plugins) {
         window.plugins = {};	
